@@ -1,0 +1,122 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+}
+
+.nav-bar {
+  margin-top: 20px;
+  align-items: left;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  color: rgb(83, 117, 153);
+  font-family: prompt;
+  font-size: 2rem;
+}
+
+hr {
+  width: 80%;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgb(80, 44, 113);
+  border: 2px solid rgb(117, 92, 141);
+}
+
+.container {
+  padding: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+
+.container > h1 {
+  font-size: 20px;
+  font-family: cursive;
+  color: rgb(122, 57, 182);
+  letter-spacing: 0.3rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  max-width: 300px;
+  margin: 0 auto;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.364);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgb(26, 155, 206);
+}
+
+.search-bar input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+  padding: 8px 15px;
+  border: none;
+  background-color: rgb(73, 121, 154);
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+.search-bar button:hover {
+  background-color: rgb(11, 37, 56);
+}
+
+.fetchDate-container {
+  display: inline-block;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 190px;
+  height: 320px;
+  vertical-align: top;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.364);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.fetchDate-container h3,
+.fetchDate-container h4 {
+  color: rgb(118, 91, 133);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-shadow: 2px 2px 5px rgb(76, 7, 93);
+}
+
+.fetchDate-container > p {
+  font-size: 15px;
+}
+
+.weather-icon {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.fetchDate-container hr {
+  border: none;
+  border-top: 2px solid rgb(12, 61, 80);
+  border-bottom: 2px solid rgb(16, 91, 120);
+}
